@@ -6,12 +6,11 @@ public class EmployeeWage {
 	
 	public static void main(String[] args) { 
 		
-		boolean present = true;
-		Random random = new Random();
+		int wagePerHour = 20;
+		int fullDayHour = 8;
+		int dailyEmployeeWage = wagePerHour * fullDayHour;
 		
-		if (present == random.nextBoolean()) {
-			System.out.println("Employee is Present");
-		}else System.out.println("Employee is Absent");
+		System.out.println("Daily Employee Wage = "+dailyEmployeeWage);
 	}
 	
 }
