@@ -3,7 +3,7 @@ package com.bridgelabz.employeewage;
 public class EmployeeWage {
 	
 	public static void main(String[] args) { 
-		int workingHourPerDay = 8;
+		int workingHourPerDay = 3;
 		int wagesPerHour =20;
 		int wages = 0;
 		int maxWorkingDay = 20;
