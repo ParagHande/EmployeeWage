@@ -1,0 +1,10 @@
+package com.bridgelabz.uc2;
+
+public class DailyEmployeeWage {
+
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

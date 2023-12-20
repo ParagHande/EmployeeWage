@@ -1,0 +1,33 @@
+package com.bridgelabz.usecase;
+
+public class EmployeeWage {
+	
+	public static void main(String[] args) { 
+		
+		int workingHourPerDay = 8;
+		int wagesPerHour =20;
+		int wages = 0;
+		int maxWorkingDay = 20;
+		int workingDay = 0;
+		int maxWorkingHours = 100;
+		int totalWorkingHours = 0;
+		
+		boolean condition = true;
+		
+		while(condition) {
+			workingDay++;
+			totalWorkingHours = totalWorkingHours+workingHourPerDay;
+			wages = wagesPerHour*totalWorkingHours;
+			
+			if (totalWorkingHours == 16) {
+				condition = false;
+				System.out.println("\nWages till, 100 woking hours OR 20 days reached = "+wages);
+				
+			}
+			System.out.println("Day "+workingDay +", Total Working Hours = "+totalWorkingHours +", Total Wages = "+wages);
+			
+		}
+		
+	}
+	
+}
