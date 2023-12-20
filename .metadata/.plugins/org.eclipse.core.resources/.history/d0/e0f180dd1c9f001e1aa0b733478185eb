@@ -6,12 +6,12 @@ public class EmployeeWage {
 	public static void main(String[] args) { 
 		
 		int wagePerHour = 20;
-		int fullDayHour = 8;
+		int fullDayHour = 85;
 		int partTimeHour = 4;
 		int dailyEmployeeWage = 0;
 		int partTimeDailyEmployeeWage = 0;
 		
-		switch (partTimeHour) {
+		switch (fullDayHour) {
 		case 8: dailyEmployeeWage = wagePerHour * fullDayHour;
 						  System.out.println("Full Time Daily Employee Wage = "+dailyEmployeeWage);
 			break;

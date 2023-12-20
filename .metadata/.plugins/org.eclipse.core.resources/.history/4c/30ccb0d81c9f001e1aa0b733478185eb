@@ -11,7 +11,7 @@ public class EmployeeWage {
 		int dailyEmployeeWage = 0;
 		int partTimeDailyEmployeeWage = 0;
 		
-		switch (partTimeHour) {
+		switch (fullDayHour) {
 		case 8: dailyEmployeeWage = wagePerHour * fullDayHour;
 						  System.out.println("Full Time Daily Employee Wage = "+dailyEmployeeWage);
 			break;
