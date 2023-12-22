@@ -3,13 +3,13 @@ package com.bridgelabz.employeewage;
 public class Main {
 	public static void main(String[] args) {
 		
-		EmployeeWage employeeWage = new EmployeeWage();
-		employeeWage.uc1();
-		employeeWage.uc2();
-		employeeWage.uc3();
-		employeeWage.uc4();
-		employeeWage.uc5();
-		employeeWage.uc6();
+		EmployeeWage company1 = new EmployeeWage("Mahindra",18, 24, 192);
+		EmployeeWage company2 = new EmployeeWage("TCS",25, 20, 180);
+		EmployeeWage company3 = new EmployeeWage("Capgemini",20, 20, 180);
+		
+		company1.usecase();
+		company2.usecase();
+		company3.usecase();
 	}
 	
 

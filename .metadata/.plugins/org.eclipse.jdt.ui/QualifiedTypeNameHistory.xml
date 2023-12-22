@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.lang.invoke.SwitchPoint"/>
-<fullyQualifiedTypeName name="com.bridgelabz.employeewage.EmployeeWage"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="com.bridgelabz.employeewage.EmployeeWage"/>
+<fullyQualifiedTypeName name="com.bridgelabz.employeewage.EmployeWageUsecase"/>
 </qualifiedTypeNameHistroy>
