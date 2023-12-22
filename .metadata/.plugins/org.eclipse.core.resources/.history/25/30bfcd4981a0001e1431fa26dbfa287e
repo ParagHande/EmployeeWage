@@ -1,0 +1,34 @@
+package com.bridgelabz.employeewage;
+
+import java.util.Random;
+
+public class EmployeeWage {
+// UC 1****************************************************************************
+	public void uc1() {
+		boolean present = true;
+		Random random = new Random();
+		if (present == random.nextBoolean()) {
+			System.out.println("Employee is Present");
+		}else {
+			System.out.println("Employee is Absent");
+		}
+	}
+// UC 2****************************************************************************
+	public void uc2() {
+		int wagePerHour = 20;
+		int fullDayHour = 8;
+		int dailyEmployeeWage = wagePerHour * fullDayHour;
+		System.out.println("Daily Employee Wage = "+ dailyEmployeeWage);
+	}
+// UC 3****************************************************************************
+	public void uc3() {
+		int wagePerHour2 = 20;
+		int fullDayHour2 = 8;
+		int partTimeHour2 = 4;
+		int dailyEmployeeWage2 = wagePerHour2 * fullDayHour2;
+		int partTimeDailyEmployeeWage2 = wagePerHour2 * partTimeHour2;
+		System.out.println("Full Time Daily Employee Wage = "+dailyEmployeeWage2);
+		System.out.println("Part Time Daily Employee Wage = "+partTimeDailyEmployeeWage2);
+	}
+	
+}
