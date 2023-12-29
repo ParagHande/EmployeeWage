@@ -7,9 +7,9 @@ public class Main {
 		EmployeeWage company2 = new EmployeeWage("TCS",25, 20, 180);
 		EmployeeWage company3 = new EmployeeWage("Capgemini",20, 20, 180);
 		
-		company1.usecase();
-		company2.usecase();
-		company3.usecase();
+		company1.computeEmployeeWage();
+		company2.computeEmployeeWage();
+		company3.computeEmployeeWage();
 	}
 	
 

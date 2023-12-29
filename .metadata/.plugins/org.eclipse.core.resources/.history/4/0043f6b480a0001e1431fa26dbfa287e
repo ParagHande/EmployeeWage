@@ -1,9 +1,0 @@
-package com.bridgelabz.employeewage;
-
-public class Main {
-	
-	EmployeeWage employeeWage = new EmployeeWage();
-	
-	employeeWage.
-
-}
